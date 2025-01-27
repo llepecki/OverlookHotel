@@ -32,7 +32,7 @@ public record DataFileLocation
 
         if (string.IsNullOrWhiteSpace(BookingsFilePath))
         {
-            errors.Add("Path to the booking file is required (example: '--hotels hotels.json')");
+            errors.Add("Path to the bookings file is required (example: '--bookings bookings.json')");
         }
 
         if (!File.Exists(BookingsFilePath))

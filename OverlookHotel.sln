@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{41B866AE-A
 		.editorconfig = .editorconfig
 		global.json = global.json
 		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlookHotel.Runner", "src\OverlookHotel.Runner\OverlookHotel.Runner.csproj", "{0E4FDFD9-E5CC-4D23-8FCF-04EE40C97E45}"

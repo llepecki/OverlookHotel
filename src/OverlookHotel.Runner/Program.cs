@@ -71,15 +71,15 @@ var mediator = host.Services.GetRequiredService<IMediator>();
 
 Console.Write("Command > ");
 var commandStr = Console.ReadLine();
-var command = CommandParser.ParseCommand(commandStr);
+var commandResult = CommandParser.ParseCommand(commandStr);
 
-if (command.IsFailure)
+if (commandResult.IsFailure)
 {
-    logger.LogError("Failed to parse command:\n{Errors}", string.Join(Environment.NewLine, dataLoadResult.Error));
+    logger.LogError("Failed to parse command:\n{Errors}", string.Join(Environment.NewLine, commandResult.Error));
     return -2;
 }
 
-if (command.Value is AvailabilityQuery availabilityQuery)
+if (commandResult.Value is AvailabilityQuery availabilityQuery)
 {
     var availabilityResult = await mediator.Send(availabilityQuery, cancellationTokenSource.Token);
 
@@ -92,7 +92,7 @@ if (command.Value is AvailabilityQuery availabilityQuery)
     logger.LogInformation("Available rooms: {AvailableRooms}", availabilityResult.Value.AvailableRooms);
 }
 
-if (command.Value is SearchQuery searchQuery)
+if (commandResult.Value is SearchQuery searchQuery)
 {
     var searchResult = await mediator.Send(searchQuery, cancellationTokenSource.Token);
 
@@ -102,8 +102,7 @@ if (command.Value is SearchQuery searchQuery)
         return -4;
     }
 
-    logger.LogInformation("Search result:\n{Result}", string.Join(Environment.NewLine, searchResult.Value));
+    logger.LogInformation("Search results:\n{Result}", string.Join(Environment.NewLine, searchResult.Value));
 }
 
-await host.RunAsync(cancellationTokenSource.Token);
 return 0;

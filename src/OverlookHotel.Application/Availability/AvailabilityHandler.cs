@@ -28,7 +28,7 @@ public class AvailabilityHandler :
         const string sql = @"
             SELECT
                 (SELECT COUNT(*) FROM Rooms WHERE HotelId = @HotelId AND RoomType = @RoomType) -
-                (SELECT COUNT(*) FROM Bookings WHERE HotelId = @HotelId AND RoomType = @RoomType AND Departure > @From AND Arrival < @To)";
+                (SELECT COUNT(*) FROM Bookings WHERE HotelId = @HotelId AND RoomType = @RoomType AND Arrival <= @To AND Departure >= @From)";
 
         var parameters = new
         {
