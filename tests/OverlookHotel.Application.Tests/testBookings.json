@@ -1,0 +1,352 @@
+[
+  {
+    "hotelId": "H99",
+    "arrival": "20250601",
+    "departure": "20250604",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "H99",
+    "arrival": "20250601",
+    "departure": "20250604",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "H99",
+    "arrival": "20250602",
+    "departure": "20250605",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "H99",
+    "arrival": "20250602",
+    "departure": "20250605",
+    "roomType": "SGL",
+    "roomRate": "NonRefund"
+  },
+  {
+    "hotelId": "H99",
+    "arrival": "20250603",
+    "departure": "20250607",
+    "roomType": "DBL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "H99",
+    "arrival": "20250603",
+    "departure": "20250607",
+    "roomType": "DBL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "H99",
+    "arrival": "20250604",
+    "departure": "20250605",
+    "roomType": "DEL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "H99",
+    "arrival": "20250604",
+    "departure": "20250605",
+    "roomType": "DEL",
+    "roomRate": "NonRefund"
+  },
+  {
+    "hotelId": "H99",
+    "arrival": "20250603",
+    "departure": "20250606",
+    "roomType": "DEL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "H99",
+    "arrival": "20250603",
+    "departure": "20250606",
+    "roomType": "DEL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "GLL2",
+    "arrival": "20260610",
+    "departure": "20260612",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "GLL2",
+    "arrival": "20260610",
+    "departure": "20260612",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "GLL2",
+    "arrival": "20260611",
+    "departure": "20260614",
+    "roomType": "DBL",
+    "roomRate": "NonRefund"
+  },
+  {
+    "hotelId": "GLL2",
+    "arrival": "20260611",
+    "departure": "20260614",
+    "roomType": "DBL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "GLL2",
+    "arrival": "20260612",
+    "departure": "20260615",
+    "roomType": "TRP",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "GLL2",
+    "arrival": "20260612",
+    "departure": "20260615",
+    "roomType": "TRP",
+    "roomRate": "NonRefund"
+  },
+  {
+    "hotelId": "GLL2",
+    "arrival": "20260613",
+    "departure": "20260615",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "GLL2",
+    "arrival": "20260613",
+    "departure": "20260615",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "GLL2",
+    "arrival": "20260612",
+    "departure": "20260617",
+    "roomType": "DBL",
+    "roomRate": "EarlyBird"
+  },
+  {
+    "hotelId": "GLL2",
+    "arrival": "20260612",
+    "departure": "20260617",
+    "roomType": "DBL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "H22",
+    "arrival": "20250301",
+    "departure": "20250305",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "H22",
+    "arrival": "20250310",
+    "departure": "20250312",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "H22",
+    "arrival": "20250401",
+    "departure": "20250403",
+    "roomType": "DBL",
+    "roomRate": "NonRefund"
+  },
+  {
+    "hotelId": "H22",
+    "arrival": "20251015",
+    "departure": "20251020",
+    "roomType": "DBL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "H22",
+    "arrival": "20251101",
+    "departure": "20251102",
+    "roomType": "SGL",
+    "roomRate": "EarlyBird"
+  },
+  {
+    "hotelId": "H22",
+    "arrival": "20260320",
+    "departure": "20260325",
+    "roomType": "DBL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "H22",
+    "arrival": "20260401",
+    "departure": "20260404",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "H22",
+    "arrival": "20260512",
+    "departure": "20260515",
+    "roomType": "DBL",
+    "roomRate": "NonRefund"
+  },
+  {
+    "hotelId": "H22",
+    "arrival": "20261005",
+    "departure": "20261007",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "H22",
+    "arrival": "20261210",
+    "departure": "20261211",
+    "roomType": "DBL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "HT10",
+    "arrival": "20250101",
+    "departure": "20250103",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "HT10",
+    "arrival": "20250105",
+    "departure": "20250108",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "HT10",
+    "arrival": "20250310",
+    "departure": "20250312",
+    "roomType": "SGL",
+    "roomRate": "NonRefund"
+  },
+  {
+    "hotelId": "HT10",
+    "arrival": "20250801",
+    "departure": "20250805",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "HT10",
+    "arrival": "20251224",
+    "departure": "20251226",
+    "roomType": "SGL",
+    "roomRate": "EarlyBird"
+  },
+  {
+    "hotelId": "HT10",
+    "arrival": "20260110",
+    "departure": "20260112",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "HT10",
+    "arrival": "20260214",
+    "departure": "20260218",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "HT10",
+    "arrival": "20260620",
+    "departure": "20260622",
+    "roomType": "SGL",
+    "roomRate": "NonRefund"
+  },
+  {
+    "hotelId": "HT10",
+    "arrival": "20260901",
+    "departure": "20260903",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "HT10",
+    "arrival": "20261110",
+    "departure": "20261112",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "AB5",
+    "arrival": "20250201",
+    "departure": "20250205",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "AB5",
+    "arrival": "20250315",
+    "departure": "20250317",
+    "roomType": "DBL",
+    "roomRate": "NonRefund"
+  },
+  {
+    "hotelId": "AB5",
+    "arrival": "20250510",
+    "departure": "20250512",
+    "roomType": "SGL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "AB5",
+    "arrival": "20250704",
+    "departure": "20250706",
+    "roomType": "DBL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "AB5",
+    "arrival": "20251231",
+    "departure": "20260102",
+    "roomType": "SGL",
+    "roomRate": "EarlyBird"
+  },
+  {
+    "hotelId": "AB5",
+    "arrival": "20260102",
+    "departure": "20260105",
+    "roomType": "DBL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "AB5",
+    "arrival": "20260201",
+    "departure": "20260203",
+    "roomType": "SGL",
+    "roomRate": "NonRefund"
+  },
+  {
+    "hotelId": "AB5",
+    "arrival": "20260606",
+    "departure": "20260608",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  },
+  {
+    "hotelId": "AB5",
+    "arrival": "20260915",
+    "departure": "20260917",
+    "roomType": "DBL",
+    "roomRate": "Prepaid"
+  },
+  {
+    "hotelId": "AB5",
+    "arrival": "20261225",
+    "departure": "20261227",
+    "roomType": "SGL",
+    "roomRate": "Standard"
+  }
+]

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlookHotel.Application", "src\OverlookHotel.Application\OverlookHotel.Application.csproj", "{A69ED1D1-72B4-4D18-9BCD-827C78758EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A93CC03B-A436-4140-99A6-176E85B2CF46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{68B5BC47-DB47-473C-87BE-1A4C41A96D7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{41B866AE-AE6B-4ECF-AB3E-256C8D5CE97E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		global.json = global.json
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlookHotel.Runner", "src\OverlookHotel.Runner\OverlookHotel.Runner.csproj", "{0E4FDFD9-E5CC-4D23-8FCF-04EE40C97E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlookHotel.Application.Tests", "tests\OverlookHotel.Application.Tests\OverlookHotel.Application.Tests.csproj", "{4326C0C2-2AE8-41CD-BB56-FB47E6D36412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlookHotel.DbInit", "src\OverlookHotel.DbInit\OverlookHotel.DbInit.csproj", "{99D060CB-863D-42AD-A84F-DA8A35DCA924}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A69ED1D1-72B4-4D18-9BCD-827C78758EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69ED1D1-72B4-4D18-9BCD-827C78758EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69ED1D1-72B4-4D18-9BCD-827C78758EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69ED1D1-72B4-4D18-9BCD-827C78758EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4FDFD9-E5CC-4D23-8FCF-04EE40C97E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4FDFD9-E5CC-4D23-8FCF-04EE40C97E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4FDFD9-E5CC-4D23-8FCF-04EE40C97E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4FDFD9-E5CC-4D23-8FCF-04EE40C97E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4326C0C2-2AE8-41CD-BB56-FB47E6D36412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4326C0C2-2AE8-41CD-BB56-FB47E6D36412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4326C0C2-2AE8-41CD-BB56-FB47E6D36412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4326C0C2-2AE8-41CD-BB56-FB47E6D36412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D060CB-863D-42AD-A84F-DA8A35DCA924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D060CB-863D-42AD-A84F-DA8A35DCA924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D060CB-863D-42AD-A84F-DA8A35DCA924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D060CB-863D-42AD-A84F-DA8A35DCA924}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A69ED1D1-72B4-4D18-9BCD-827C78758EC3} = {A93CC03B-A436-4140-99A6-176E85B2CF46}
+		{0E4FDFD9-E5CC-4D23-8FCF-04EE40C97E45} = {A93CC03B-A436-4140-99A6-176E85B2CF46}
+		{4326C0C2-2AE8-41CD-BB56-FB47E6D36412} = {68B5BC47-DB47-473C-87BE-1A4C41A96D7B}
+		{99D060CB-863D-42AD-A84F-DA8A35DCA924} = {A93CC03B-A436-4140-99A6-176E85B2CF46}
+	EndGlobalSection
+EndGlobal

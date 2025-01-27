@@ -1,0 +1,170 @@
+[
+  {
+    "id": "H22",
+    "name": "Grand Inn",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": ["WiFi", "TV"],
+        "features": ["Non-smoking"]
+      },
+      {
+        "code": "DBL",
+        "description": "Double Room",
+        "amenities": ["WiFi"],
+        "features": []
+      }
+    ],
+    "rooms": [
+      { "roomType": "SGL", "roomId": "101" },
+      { "roomType": "SGL", "roomId": "102" },
+      { "roomType": "SGL", "roomId": "103" },
+      { "roomType": "SGL", "roomId": "104" },
+      { "roomType": "SGL", "roomId": "105" },
+      { "roomType": "DBL", "roomId": "201" },
+      { "roomType": "DBL", "roomId": "202" },
+      { "roomType": "DBL", "roomId": "203" },
+      { "roomType": "DBL", "roomId": "204" },
+      { "roomType": "DBL", "roomId": "205" }
+    ]
+  },
+  {
+    "id": "H99",
+    "name": "Ocean View",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": ["WiFi", "TV"],
+        "features": ["Non-smoking"]
+      },
+      {
+        "code": "DBL",
+        "description": "Double Room",
+        "amenities": ["TV", "Minibar"],
+        "features": []
+      },
+      {
+        "code": "DEL",
+        "description": "Deluxe Suite",
+        "amenities": ["WiFi", "TV", "Room Service"],
+        "features": ["Sea View", "Non-smoking"]
+      }
+    ],
+    "rooms": [
+      { "roomType": "SGL", "roomId": "101" },
+      { "roomType": "SGL", "roomId": "102" },
+      { "roomType": "SGL", "roomId": "103" },
+      { "roomType": "SGL", "roomId": "104" },
+      { "roomType": "SGL", "roomId": "105" },
+      { "roomType": "DBL", "roomId": "201" },
+      { "roomType": "DBL", "roomId": "202" },
+      { "roomType": "DBL", "roomId": "203" },
+      { "roomType": "DBL", "roomId": "204" },
+      { "roomType": "DBL", "roomId": "205" },
+      { "roomType": "DEL", "roomId": "301" },
+      { "roomType": "DEL", "roomId": "302" },
+      { "roomType": "DEL", "roomId": "303" },
+      { "roomType": "DEL", "roomId": "304" },
+      { "roomType": "DEL", "roomId": "305" }
+    ]
+  },
+  {
+    "id": "HT10",
+    "name": "Mountain Lodge",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [],
+        "features": []
+      }
+    ],
+    "rooms": [
+      { "roomType": "SGL", "roomId": "101" },
+      { "roomType": "SGL", "roomId": "102" },
+      { "roomType": "SGL", "roomId": "103" },
+      { "roomType": "SGL", "roomId": "104" },
+      { "roomType": "SGL", "roomId": "105" },
+      { "roomType": "SGL", "roomId": "106" },
+      { "roomType": "SGL", "roomId": "107" },
+      { "roomType": "SGL", "roomId": "108" },
+      { "roomType": "SGL", "roomId": "109" },
+      { "roomType": "SGL", "roomId": "110" }
+    ]
+  },
+  {
+    "id": "GLL2",
+    "name": "Green Leaf Lodge",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": ["WiFi"],
+        "features": ["Garden View"]
+      },
+      {
+        "code": "DBL",
+        "description": "Double Room",
+        "amenities": ["TV"],
+        "features": ["Balcony"]
+      },
+      {
+        "code": "TRP",
+        "description": "Triple Room",
+        "amenities": ["WiFi", "TV"],
+        "features": []
+      }
+    ],
+    "rooms": [
+      { "roomType": "SGL", "roomId": "101" },
+      { "roomType": "SGL", "roomId": "102" },
+      { "roomType": "SGL", "roomId": "103" },
+      { "roomType": "SGL", "roomId": "104" },
+      { "roomType": "SGL", "roomId": "105" },
+      { "roomType": "DBL", "roomId": "201" },
+      { "roomType": "DBL", "roomId": "202" },
+      { "roomType": "DBL", "roomId": "203" },
+      { "roomType": "DBL", "roomId": "204" },
+      { "roomType": "DBL", "roomId": "205" },
+      { "roomType": "TRP", "roomId": "301" },
+      { "roomType": "TRP", "roomId": "302" },
+      { "roomType": "TRP", "roomId": "303" },
+      { "roomType": "TRP", "roomId": "304" },
+      { "roomType": "TRP", "roomId": "305" }
+    ]
+  },
+  {
+    "id": "AB5",
+    "name": "City Express",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": ["WiFi", "TV"],
+        "features": ["Non-smoking"]
+      },
+      {
+        "code": "DBL",
+        "description": "Double Room",
+        "amenities": ["WiFi"],
+        "features": []
+      }
+    ],
+    "rooms": [
+      { "roomType": "SGL", "roomId": "101" },
+      { "roomType": "SGL", "roomId": "102" },
+      { "roomType": "SGL", "roomId": "103" },
+      { "roomType": "SGL", "roomId": "104" },
+      { "roomType": "SGL", "roomId": "105" },
+      { "roomType": "SGL", "roomId": "106" },
+      { "roomType": "DBL", "roomId": "201" },
+      { "roomType": "DBL", "roomId": "202" },
+      { "roomType": "DBL", "roomId": "203" },
+      { "roomType": "DBL", "roomId": "204" },
+      { "roomType": "DBL", "roomId": "205" },
+      { "roomType": "DBL", "roomId": "206" }
+    ]
+  }
+]
