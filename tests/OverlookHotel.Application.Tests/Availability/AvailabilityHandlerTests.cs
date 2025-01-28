@@ -13,6 +13,7 @@ public class AvailabilityHandlerTests(DataFixture dataFixture) : IClassFixture<D
     [InlineData("H22", "2025-03-01", "2025-03-05", "SGL", 4)]
     [InlineData("H22", "2025-03-01", "2025-03-05", "DBL", 5)]
     [InlineData("H22", "2025-03-10", "2025-03-12", "SGL", 4)]
+    [InlineData("H99", "2025-06-01", "2025-06-01", "SGL", 3)]
     [InlineData("H99", "2025-06-01", "2025-06-04", "SGL", 1)]
     [InlineData("H99", "2025-06-02", "2025-06-05", "SGL", 1)]
     [InlineData("H99", "2025-06-03", "2025-06-07", "DBL", 3)]

@@ -60,24 +60,24 @@ Once the application is running, you can execute the following commands:
 
 - **Purpose**: Handles the initialization of the SQLite database.
 - **Responsibilities**:
-  - **Data Loading**: Reads input data from JSON files (`hotels.json`, `bookings.json`).
-  - **Database Setup**: Creates necessary tables and inserts data using Dapper.
-  - **Scripts Management**: Contains SQL scripts for table creation and data insertion.
+  - **Data loading**: Reads input data from JSON files (`hotels.json`, `bookings.json`).
+  - **Database setup**: Creates necessary tables and inserts data using Dapper.
+  - **Scripts management**: Contains SQL scripts for table creation and data insertion.
 
 ### 2. **Runner**
 
 - **Purpose**: Application host and the entry point.
 - **Responsibilities**:
-  - **Command-Line Interface**: Provides an interface for users to input commands.
-  - **Command Execution**: Parses and executes user commands by interacting with the Application layer.
-  - **Output Display**: Displays the results of commands to the user.
+  - **Command-line interface**: Provides an interface for users to input commands.
+  - **Command execution**: Parses and executes user commands by interacting with the Application layer.
+  - **Output display**: Displays the results of commands to the user.
 
 ### 3. **Application**
 
 - **Purpose**: Implements the business logic and core functionalities.
 - **Responsibilities**:
-  - **Business Logic**: Contains handlers for `Availability` and `Search` commands.
-  - **Data Access**: Interacts with the SQLite database to fetch and manipulate data.
+  - **Business logic**: Contains handlers for `Availability` and `Search` commands.
+  - **Data access**: Interacts with the SQLite database to fetch and manipulate data.
   - **Validation**: Includes validators to ensure the integrity of incoming queries.
   - **Testing**: Has unit tests to validate the correctness of the business logic.
 
@@ -86,11 +86,11 @@ Once the application is running, you can execute the following commands:
 1. **Initialization**:
     - `DbInit` reads `hotels.json` and `bookings.json` and populates the SQLite database.
 
-2. **User Interaction**:
-    - Users run the application via the `Runner` project.
-    - Commands are entered through the command-line interface.
+2. **User interaction**:
+    - User runs the application via the `Runner` project.
+    - Command is entered through the command-line interface.
 
-3. **Command Processing**:
+3. **Command processing**:
     - The `Application` layer processes commands, performs validations and executes business logic.
     - Results are fetched from the database and returned to the user through the `Runner`.
 
@@ -109,11 +109,11 @@ Once the application is running, you can execute the following commands:
 I've used **ChatGPT o1** to assist me in writing tedious pieces of code.
 
 - **Generating DTOs**: Created initial structures for deserializing JSON input data.
-- **Database Schema Design**: SQL queries for table creation and data insertion compatible with Dapper.
-- **Command Parsing Logic**: Developed parsers for interpreting user input commands and mapping them to corresponding actions.
-- **Test Data Generation**: Produced sample JSON files (`testHotels.json`, `testBookings.json`) based on specified constraints.
+- **Database schema design**: SQL queries for table creation and data insertion compatible with Dapper.
+- **Command parsing logic**: Developed parsers for interpreting user input commands and mapping them to corresponding actions.
+- **Test data generation**: Produced sample JSON files (`testHotels.json`, `testBookings.json`) based on specified constraints.
 
-*Note: All AI-generated code (including this sentence :wink:) was thoroughly reviewed.*
+*Note: All AI-generated code (including this sentence *:wink:*) was thoroughly reviewed.*
 
 ## Future Improvements
 
@@ -121,10 +121,10 @@ While the **Overlook Hotel** currently meets the core requirements, there are se
 
 ### 1. **Case insensitivity in commands**
 
-- **Current State**: The application treats user input as case-sensitive.
-- **Planned Enhancement**: Modify the command parser to handle case-insensitive inputs.
+- **Current state**: The application treats user input as case-sensitive.
+- **Enhancement**: Modify the command parser to handle case-insensitive inputs.
 
 ### 2. **Optimized database connection management**
 
-- **Current State**: Database connections are opened and closed for each operation, which may impact performance.
-- **Planned Enhancement**: Implement a connection pooling mechanism to reuse open connections.
+- **Current state**: Database connections are opened and closed for each operation, which may impact performance.
+- **Enhancement**: Implement a connection pooling mechanism to reuse open connections.
