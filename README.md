@@ -5,9 +5,9 @@
 ## Features
 
 - **Query room availability**: Check available rooms for specific dates and room types.
-- **Search for ruums**: Search for available rooms over a range of days.
+- **Search for rooms**: Search for available rooms over a range of days.
 - **Data initialization**: Load hotel and booking data from JSON files into a SQLite database.
-- **Extensible design**: Structured into modular projects for scalability and maintainability.
+- **Structure**: Modular projects for scalability and maintainability.
 
 ## Usage
 
@@ -32,7 +32,7 @@
 
 ### Running the application
 
-1. **Navigate to the Runner Project**:
+1. **Navigate to the Runner project**:
 
 ```shell
   cd src/OverlookHotel.Runner
@@ -44,7 +44,7 @@
   dotnet run --hotels hotels.json --bookings bookings.json
 ```
 
-### Executing Commands
+### Executing commands
 
 Once the application is running, you can execute the following commands:
 
@@ -53,6 +53,16 @@ Once the application is running, you can execute the following commands:
     Command > Availability(H22, 20250301-20250305, DBL) [enter]
     Command > Search(H22, 10, SGL) [enter]
 ```
+
+## Architectural decisions
+
+### Loading data into SQLite
+
+JSON format isn’t ideal for querying data efficiently. Although the additional step of reading data from JSON files and inserting them into the database introduces some complexity, it proves beneficial in the long run by simplifying data queries.
+
+### MediatR handlers
+
+While the application is relatively simple and using MediatR might initially seem like an overkill, it enhances readability and encapsulates business logic into easily testable components.
 
 ## Design
 
